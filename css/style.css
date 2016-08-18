@@ -1,1 +1,10 @@
 /* add css below */
+
+.jumbotron {
+    background-image: url("../images/landscape.jpg");
+    background-size: cover;
+}
+
+.jumbotron p {
+    color: white;
+}
