@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fffeea;
+    color: #34495e;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -10,10 +15,6 @@
 
 .header h1 {
     text-align: center;
-}
-
-h3 {
-    margin-left: 35px;
 }
 
 p {
@@ -41,9 +42,49 @@ p {
 .skills {
     position: absolute;
     right: 150px;
+    background-color: #5ad4c2;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+#skill-list {
+    margin-left: 50px;
 }
 
 .main-text {
     clear: both;
     padding-top: 10px;
 }
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: Georgia, Palatino, serif;
+}
+
+li {
+    font-family: Georgia, Palatino, serif;
+}
+
+.intro p {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+.skills {
+    font-size: 1.25em;
+}
+
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
