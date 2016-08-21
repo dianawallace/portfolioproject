@@ -1,0 +1,49 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 35px;
+}
+
+p {
+    display: inline;
+}
+
+.image {
+    display: inline-block;
+    float: left;
+    position: fixed;
+}
+
+.column {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding: 0 75px;
+    margin: 0 5px 0 125px;
+}
+
+.intro {
+    margin-left: 350px;
+}
+
+.skills {
+    position: absolute;
+    right: 150px;
+}
+
+.main-text {
+    clear: both;
+    padding-top: 10px;
+}
