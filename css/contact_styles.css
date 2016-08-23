@@ -1,0 +1,18 @@
+
+.jumbotron {
+    background-image: url("../images/landscape.jpg");
+    background-size: cover;
+}
+
+.header {
+    color: #fefefe;
+}
+
+.message {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
