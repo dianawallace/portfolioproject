@@ -6,6 +6,7 @@
 
 .header {
     color: #fefefe;
+    text-align: center;
 }
 
 .message {
@@ -14,5 +15,31 @@
 
 p {
     text-align: center;
+}
+
+.message {
+    margin: 50px auto;
+    width: 75%;
+}
+
+/* Typography */
+
+h1,
+h2 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+.message {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+
+.contact-info {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 3em;
+    color: #337ab7;
 }
 
