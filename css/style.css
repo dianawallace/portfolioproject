@@ -50,3 +50,96 @@ h2 {
     transition: color 600ms;
 }
 
+
+/* Contact Page */
+
+
+body {
+    color: #34495e;
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background-image: url("../images/landscape.jpg");
+    background-size: cover;
+}
+
+.nav {
+    background-color: #5c482f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 20px 10px 20px;
+    float: left;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li a {
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ecc9ab;
+    text-decoration: none;
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+}
+
+.header h1 {
+    color: #fefefe;
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.message {
+    margin: 50px auto;
+    width: 75%;
+}
+
+.glyphicon {
+    
+    padding-right: 25px;
+}
+
+/* Typography */
+
+h1,
+h2 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav ul li {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+.message {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+
+.contact-info {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 3em;
+    color: #337ab7;
+}
+
