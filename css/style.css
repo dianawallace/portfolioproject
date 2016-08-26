@@ -1,5 +1,9 @@
 /* add css below */
 
+body {
+    padding-top: 50px;
+}
+
 .jumbotron {
     background-image: url("../images/landscape.jpg");
     background-size: cover;
@@ -15,5 +19,34 @@
 
 h2 {
     color: #337ab7;
+}
+
+.nav {
+    background-color: #5c482f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 20px 10px 20px;
+    float: left;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li a {
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.nav a:hover {
+    color: #ecc9ab;
+    text-decoration: none;
+    transition: color 600ms;
 }
 
