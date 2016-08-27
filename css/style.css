@@ -21,6 +21,16 @@ h2 {
     color: #337ab7;
 }
 
+#carousel-example-generic {
+    padding-top: 29px;
+}
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
 .nav {
     background-color: #5c482f;
     position: fixed;
@@ -140,6 +150,34 @@ h2 {
 .contact-info {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 3em;
+    color: #337ab7;
+}
+
+/* FAQ Page */
+
+.panel-default>.panel-heading {
+    background-color: #ecc9ab;
+}
+
+/* Typography */
+
+.faq-questions p {
+    font-size: 2em;
+}
+
+.panel-title {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1.75em; 
+    text-decoration: none;
+}
+
+.panel-title a:focus, a:hover {
+    text-decoration: none;
+}
+
+.panel-body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5em;
     color: #337ab7;
 }
 
