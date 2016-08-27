@@ -1,2 +1,2 @@
 # portfolioproject
-Portfolio Project for my website
+Career Foundry Portfolio Site Project 
