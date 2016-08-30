@@ -74,7 +74,7 @@ h3 {
 }
 
 .goals {
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 #projects {
@@ -131,7 +131,7 @@ h3 {
 
 .container-fluid {
     
-    margin: 0 auto 0 auto;
+    margin: 50 auto 50 auto;
 }
 
 
@@ -140,12 +140,16 @@ h3 {
     color: white;
 }
 
+.about {
+    margin: 100px 0;
+}
+
 .image {
     margin-left: 50px;
 }
 
 .middle-section {
-    margin: 50px auto;
+    text-align: center;
 }
 
 .column {
@@ -155,7 +159,7 @@ h3 {
 .skills {
     
     right: 150px;
-    background-color: #261909;
+    background-color: #5c482f;
     color: #fff;
     padding: 30px 50px;
 }
@@ -171,10 +175,10 @@ h1,
 h2,
 h3 {
   font-family: Futura, Helvetica, Arial, sans-serif;
-}
+ }
 
 .header {
-    font-size: 2em;
+    
 }
 
 .nav ul li {
@@ -208,6 +212,39 @@ li {
 }
 
 .main-text h3 {
+    color: #337ab7;
+}
+
+.main-text p {
+    margin: 25px 100px 75px 100px;
+}
+
+/* FAQ Page */
+
+.panel-default>.panel-heading {
+    background-color: #ecc9ab;
+}
+
+/* Typography */
+
+.faq-questions p {
+    font-size: 2em;
+    margin: 50px 0;
+}
+
+.panel-title {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1.75em; 
+    text-decoration: none;
+}
+
+.panel-title a:focus, a:hover {
+    text-decoration: none;
+}
+
+.panel-body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5em;
     color: #337ab7;
 }
 
@@ -256,9 +293,10 @@ body {
     -webkit-transition: color 600ms;
 }
 
-.header h1 {
-    color: #fefefe;
+.header h2 {
+    color: #337ab7;
     text-align: center;
+    margin: 100px 0 0 0;
 }
 
 .message {
@@ -277,6 +315,10 @@ p {
 .glyphicon {
     
     padding-right: 25px;
+}
+
+.address {
+    margin: 0 0 100px 0;
 }
 
 /* Typography */
@@ -301,34 +343,6 @@ h2 {
 .contact-info {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 3em;
-    color: #337ab7;
-}
-
-/* FAQ Page */
-
-.panel-default>.panel-heading {
-    background-color: #ecc9ab;
-}
-
-/* Typography */
-
-.faq-questions p {
-    font-size: 2em;
-}
-
-.panel-title {
-    font-family: Futura, Helvetica, Arial, sans-serif;
-    font-size: 1.75em; 
-    text-decoration: none;
-}
-
-.panel-title a:focus, a:hover {
-    text-decoration: none;
-}
-
-.panel-body {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 1.5em;
     color: #337ab7;
 }
 
