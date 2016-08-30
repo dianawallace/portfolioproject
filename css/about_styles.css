@@ -67,8 +67,6 @@ p {
 
 .image {
     display: inline-block;
-    float: left;
-    position: fixed;
 }
 
 .column {
@@ -84,7 +82,7 @@ p {
 }
 
 .skills {
-    position: absolute;
+    
     right: 150px;
     background-color: #261909;
     color: #fff;
