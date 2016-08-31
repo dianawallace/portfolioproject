@@ -1,7 +1,8 @@
-/* add css below */
+
 
 body {
     padding-top: 50px;
+    position: relative;
 }
 
 .jumbotron {
@@ -26,7 +27,17 @@ h3 {
     text-align: center;
 }
 
-.nav {
+.projectName {
+    text-transform: uppercase;
+}
+
+.projectName a {
+    color: white;
+}
+
+
+
+/* .nav {
     background-color: #5c482f;
     position: fixed;
     width: 100%;
@@ -34,7 +45,7 @@ h3 {
     z-index: 1;
 }
 
-.nav ul li {
+ .nav ul li {
     display: inline-block;
     padding: 20px 10px 20px;
     float: left;
@@ -55,6 +66,10 @@ h3 {
     text-decoration: none;
     transition: color 600ms;
 }
+
+.nav-tabs {
+    border-bottom: 0;
+} */
 
 #carousel-example-generic {
     padding-top: 19px;
@@ -74,59 +89,35 @@ h3 {
 }
 
 .goals {
-    margin: 100px 0;
+    margin: 75px 0 50px 0;
+}
+
+.goal {
+    margin: 0 0 50px 0;
 }
 
 #projects {
     margin: 50px 0;
 }
 
-.first-row {
-    margin: 50px 0;
+.projects {
+    margin: 50px 0 0 0;
 }
 
-/* About Page */
+.first-row {
+    margin: 100px 0;
+}
+
+/* About */
 
 * { 
     box-sizing: border-box;
 }
 
-
 .jumbotron {
     background-image: url("../images/landscape.jpg");
     background-size: cover;
     padding: 48px 48px;
-}
-
-.nav {
-    background-color: #5c482f;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-.nav ul li {
-    display: inline-block;
-    padding: 20px 10px 20px;
-    float: left;
-}
-
-.nav ul {
-    float: right;
-}
-
-.nav ul li a {
-    color: #fefefe;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    color: #ecc9ab;
-    text-decoration: none;
-    transition: color 600ms;
-    -webkit-transition: color 600ms;
 }
 
 .container-fluid {
@@ -159,7 +150,7 @@ h3 {
 .skills {
     
     right: 150px;
-    background-color: #5c482f;
+    background-color: #101010;
     color: #fff;
     padding: 30px 50px;
 }
@@ -169,16 +160,71 @@ h3 {
     padding-top: 10px;
 }
 
+/* Contact */
+
+body {
+    color: black;
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background-image: url("../images/landscape.jpg");
+    background-size: cover;
+}
+
+.header h2 {
+    color: black;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+#contact {
+    background-image: url("../images/mountains2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    padding: 25px 25px;
+    height: 1100px;
+}
+
+.message {
+    text-align: center;
+    margin: 50px auto;
+    width: 75%;
+}
+
+p {
+    text-align: center;
+}
+
+a { 
+    color: black;
+}    
+    
+.glyphicon {
+    
+    padding-right: 25px;
+    color: black;
+}
+
+.address {
+    margin: 0 0 100px 0;
+}
+
+/* FAQ */
+
+.panel-default>.panel-heading {
+    background-color: #b6b5b5;
+}
+
 /* Typography */
 
 h1,
 h2,
 h3 {
   font-family: Futura, Helvetica, Arial, sans-serif;
- }
-
-.header {
-    
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .nav ul li {
@@ -187,10 +233,6 @@ h3 {
 }
 
 p {
-    font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-li {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -219,13 +261,25 @@ li {
     margin: 25px 100px 75px 100px;
 }
 
-/* FAQ Page */
-
-.panel-default>.panel-heading {
-    background-color: #ecc9ab;
+.message {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
-/* Typography */
+.contact-info {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.75em;
+    color: black;
+}
+
+#contact {
+    font-weight: bold;
+}
+
+.faq-questions h2 {
+    margin: 75px 0;
+}
 
 .faq-questions p {
     font-size: 2em;
@@ -247,102 +301,3 @@ li {
     font-size: 1.5em;
     color: #337ab7;
 }
-
-
-
-/* Contact Page */
-
-body {
-    color: #34495e;
-    padding-top: 50px;
-}
-
-.jumbotron {
-    background-image: url("../images/landscape.jpg");
-    background-size: cover;
-}
-
-.nav {
-    background-color: #5c482f;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-.nav ul li {
-    display: inline-block;
-    padding: 20px 10px 20px;
-    float: left;
-}
-
-.nav ul {
-    float: right;
-}
-
-.nav ul li a {
-    color: #fefefe;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    color: #ecc9ab;
-    text-decoration: none;
-    transition: color 600ms;
-    -webkit-transition: color 600ms;
-}
-
-.header h2 {
-    color: #337ab7;
-    text-align: center;
-    margin: 100px 0 0 0;
-}
-
-.message {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-.message {
-    margin: 50px auto;
-    width: 75%;
-}
-
-.glyphicon {
-    
-    padding-right: 25px;
-}
-
-.address {
-    margin: 0 0 100px 0;
-}
-
-/* Typography */
-
-h1,
-h2 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.nav ul li {
-    font-family: Futura, Helvetica, Arial, sans-serif;
-    font-size: 1em;
-}
-
-.message {
-    font-family: Futura, Helvetica, Arial, sans-serif;
-    font-size: 2em;
-}
-
-.contact-info {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 3em;
-    color: #337ab7;
-}
-
