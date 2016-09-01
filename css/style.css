@@ -81,11 +81,11 @@ h3 {
 }
 
 .carousel-caption h3 {
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .carousel-caption p {
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 .goals {
@@ -277,6 +277,10 @@ p {
     font-weight: bold;
 }
 
+.email {
+    font-size: 1.10em;
+}
+
 .faq-questions h2 {
     margin: 75px 0;
 }
@@ -300,4 +304,22 @@ p {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1.5em;
     color: #337ab7;
+}
+
+
+@media (min-width: 768px) {  
+
+.carousel-caption h3{
+    font-size: 4em;
+}
+
+.carousel-caption p {
+    font-size: 2.5em;
+}
+
+    
+.email {
+    font-size: 1.75em;
+}
+
 }
