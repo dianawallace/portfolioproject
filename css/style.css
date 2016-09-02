@@ -306,6 +306,31 @@ p {
     color: #337ab7;
 }
 
+.video-guide {
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 25px;
+}
+
+.copy {
+    float: left;
+}
+
+.social-media {
+    float: right;
+}
+
+.twitter-follow {
+    margin-top: 15px;
+    margin-right: 145px;
+}
+
+.fb-like {
+    width: 300px;
+}
+
 
 @media (min-width: 768px) {  
 
@@ -320,6 +345,15 @@ p {
     
 .email {
     font-size: 1.75em;
+}
+
+.video-guide {
+    margin: 50px;
+}
+
+.twitter-follow {
+    margin: 0 0 0 0;
+    
 }
 
 }
