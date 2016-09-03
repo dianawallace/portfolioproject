@@ -211,6 +211,10 @@ a {
     margin: 0 0 100px 0;
 }
 
+.form-control {
+    width: 80%;
+}
+
 /* FAQ */
 
 .panel-default>.panel-heading {
@@ -324,7 +328,8 @@ p {
 
 .twitter-follow {
     margin-top: 15px;
-    margin-right: 145px;
+    margin-bottom: 15px;
+    margin-right: 140px;
 }
 
 .fb-like {
