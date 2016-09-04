@@ -220,6 +220,10 @@ a {
     background-color: #b6b5b5;
 }
 
+.panel-group {
+    padding-bottom: 50px
+}
+
 /* Video Guide */
 
 .video {
@@ -301,12 +305,14 @@ p {
     margin: 15px 0 25px 0;
 }
 
-#faq {
-    margin: 0 100px;
-}
-
 .btn {
     margin: 20px 0;
+}
+
+#modalembed {
+    height: 1000px;
+    width: 100%;
+    padding: 10px;
 }
 
 .panel-title {

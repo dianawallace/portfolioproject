@@ -319,20 +319,26 @@
     <div class="container-fluid" id="faq">
       <div class="row">
         <h2 class="learn-more">Learn More</h2>
+          <!--Large Modal Button-->
         <div class="modal-button">
-          <!--Small Modal Button-->
-          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">View Resume/CV</button> 
+          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV</button> 
         </div>
-      </div>
-        <!--Small Modal-->
-        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
-        aria-labelledby="mySmallModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-sm">
+          <!--Large Modal-->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+        aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static"  data-keyboard="false">>
+          <div class="modal-dialog modal-lg">
             <div class="modal-content">
-              Here is my Resume/CV  
-             </div>
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Resume/CV</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+                <span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <embed id="modalembed" src="images/diana_wallace_resume.pdf">
+              </div>
           </div>
         </div>
+      </div>
       <div class="faq-questions">
         <p>Click on a question to view the answer</p>
       </div>
@@ -419,7 +425,7 @@
         </div>
       </div>  
        <hr>
-    </div>
+    </div><!-- /end container-fluid-->
       <footer class="social">
         <div class="row">
           <div class="col-xs-12">
