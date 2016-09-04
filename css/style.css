@@ -20,7 +20,6 @@ body {
 
 h2 {
     color: #337ab7;
-    text-align: center;
 }
 
 h3 {
@@ -90,18 +89,22 @@ h3 {
 
 .goals {
     margin: 75px 0 50px 0;
+    text-align: center;
 }
 
 .goal {
     margin: 0 0 50px 0;
+    text-align: center;
 }
 
 #projects {
     margin: 50px 0;
+    text-align: center;
 }
 
 .projects {
     margin: 50px 0 0 0;
+    text-align: center;
 }
 
 .first-row {
@@ -125,7 +128,6 @@ h3 {
     margin: 50 auto 50 auto;
 }
 
-
 .header h1 {
     text-align: center;
     color: white;
@@ -133,6 +135,7 @@ h3 {
 
 .about {
     margin: 100px 0;
+    text-align: center;
 }
 
 .image {
@@ -174,8 +177,6 @@ body {
 
 .header h2 {
     color: black;
-    text-align: center;
-    margin: 100px 0 0 0;
 }
 
 #contact {
@@ -188,13 +189,7 @@ body {
 }
 
 .message {
-    text-align: center;
-    margin: 50px auto;
     width: 75%;
-}
-
-p {
-    text-align: center;
 }
 
 a { 
@@ -217,8 +212,18 @@ a {
 
 /* FAQ */
 
+.faq-questions {
+    text-align: center;
+}
+
 .panel-default>.panel-heading {
     background-color: #b6b5b5;
+}
+
+/* Video Guide */
+
+.video {
+    text-align: center;
 }
 
 /* Typography */
@@ -267,13 +272,11 @@ p {
 
 .message {
     font-family: Futura, Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
-    font-weight: bold;
 }
 
 .contact-info {
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 1.75em;
+    font-size: 1em;
     color: black;
 }
 
@@ -281,17 +284,29 @@ p {
     font-weight: bold;
 }
 
-.email {
-    font-size: 1.10em;
+.learn-more {
+    text-align: left;
+    float: left;
+    padding: 15px;
 }
 
-.faq-questions h2 {
-    margin: 75px 0;
+.modal-button {
+  float: right;
+  padding: 15px;
 }
+
 
 .faq-questions p {
     font-size: 2em;
-    margin: 50px 0;
+    margin: 15px 0 25px 0;
+}
+
+#faq {
+    margin: 0 100px;
+}
+
+.btn {
+    margin: 20px 0;
 }
 
 .panel-title {
@@ -347,9 +362,16 @@ p {
     font-size: 2.5em;
 }
 
-    
+#contact {
+    padding: 150px 0 0 200px
+}
+
+.form-group {
+    padding-top: 25px
+}
+
 .email {
-    font-size: 1.75em;
+    font-size: 1em;
 }
 
 .video-guide {
