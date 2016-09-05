@@ -168,21 +168,26 @@
         <div class="col-xs-12 col-md-4">
           <h2>Portfolio Concept</h2>
           <p>I would like to showcase my digital illustrations, and also my featured projects 
-          that I have completed through Thinkful's front end web development course. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          that I have completed through Thinkful's front end web development course. 
+          <a href="#" title="More Information" id="item1">Tooltip</a> </p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" 
+          title="More Information">View details &raquo;</button>
+          
         </div><!-- /col -->
         <div class="col-xs-12 col-md-4">
           <h2>Project Goals</h2>
           <p>I plan on committing 20 - 25 hours a week primarily in the evenings and weekends since I work full time Monday - Friday from 8 to 5. 
           I would also like to finish the course in four or five months.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" 
+          title="More Information">View details &raquo;</button>
        </div><!-- /col -->
         <div class="col-xs-12 col-md-4">
           <h2>Course Goals</h2>
           <p>I am changing careers. I just finished my BFA in Illustration, and wanted to complement my design 
           skills with front end web development. I also wanted to learn Ruby so I could go full stack, too. I would like to get hired
           as an entry level developer and do freelance work on the side if possible. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" 
+          title="More Information">View details &raquo;</button>
         </div><!-- /col -->
       </div><!-- /row -->
     </div><!-- /container -->
@@ -460,10 +465,25 @@
     
     <!-- Can place script tags with JavaScript files here -->
     
+    <!-- stellar script -->
     <script src="js/jquery.stellar.min.js"></script>
     <script>$("#content").stellar();</script>
     
     <script src="js/script.js"></script>
+    
+    <!-- Tooltip Link -->
+    <script>
+      $(function() {
+        $('#item1').tooltip();
+      });
+    </script>
+    
+    <!-- Tooltip Button -->
+    <script>
+      $(function() {
+        $('data-toggle="tooltip"').tooltip();
+      });
+    </script>
     
     <script type="text/javascript">
       var $root = $('html, body');
