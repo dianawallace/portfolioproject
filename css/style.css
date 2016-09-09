@@ -169,6 +169,7 @@ p {
   background-attachment: fixed;
   background-size: cover;
   color: black;
+  font-weight: bold;
   padding: 25px 25px;
   height: 1100px;
 }
@@ -199,10 +200,6 @@ a {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1em;
   color: black;
-}
-
-#contact {
-  font-weight: bold;
 }
 
 

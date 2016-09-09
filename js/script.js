@@ -2,17 +2,11 @@
   // Load Twitter Follow Me Button 
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
-    // Load Facebook SDK for JavaScript 
-    <div id="fb-root"></div>
-        (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+    
+    
+    
 
-$(document).ready(function(){
+$(document).ready(function($){
   
    // Smooth Scrolling Plugin
       var $root = $('html, body');
@@ -39,6 +33,20 @@ $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
       });
  
+      // Pink background color in message-box
+      $(".message-box").css("background-color", "pink");
+   
+      // Message-box comment on click
+      $('#button').on('click', function() {
+        var comment = $(".message-box").val();
+        $('#visible-comment').html(comment);
+        $('.message-box').hide();
+        
+        //console.log(comment);
+        return false;
+      });
+
+      
 }); // end of JavaScript //
 
 

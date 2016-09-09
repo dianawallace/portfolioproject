@@ -309,13 +309,14 @@
             </div>
             <div class="form-group">
               <label for="email">*Email address</label>
-              <input type="email" name="email" class="form-control" placeholder="Enter your email" class="email-box" title="email address required" required="required">
+              <input type="email" name="email" class="form-control" placeholder="Enter your email" class="email-box" title="email address required">
             </div>
             <div class="form-group">
               <label for="message">*Your message below. </label> 
-              <textarea name="message" class="form-control" placeholder="Enter your message" class="message-box" title="message required" required="required" style="resize:none" cols="40" rows="5"></textarea>
+              <textarea name="message" class="form-control message-box" placeholder="Enter your message" title="message required" required="required" style="resize:none" cols="40" rows="5"></textarea>
+              <p id="visible-comment"></p>
             </div>
-              <button type="Submit" class="btn btn-default">Submit</button>
+              <button type="Submit" id="button" class="btn btn-default">Submit</button>
           </form>
         </div><!-- column -->
       </div><!--row -->
@@ -458,59 +459,27 @@
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     
     <!-- Can place script tags with JavaScript files here -->
-    
+  
+   
     <!-- stellar script -->
     <script src="js/jquery.stellar.min.js"></script>
     <script>$("#content").stellar();</script>
     
-    <script src="js/script.js"></script>
-    
-    <!-- Tooltip Link -->
-    <script>
-      $(function() {
-        $('#item1').tooltip();
-      });
-    </script>
-    
-    <!-- Tooltip Button -->
-    <script>
-      $(function() {
-        $('data-toggle="tooltip"').tooltip();
-      });
-    </script>
-    
-    <!-- Scroll Plugin -->
-    <script type="text/javascript">
-      var $root = $('html, body');
-        $('.navbar-nav a').click(function() {
-        var href = $.attr(this, 'href');
-          $root.animate({
-            scrollTop: $(href).offset().top
-        }, 500, function () {
-            window.location.hash = href;
-        });
-        return false;
-    });
-    </script>
-    
-    <!-- Load Twitter Follow Me Button -->
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-    <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <script src="js/script.js"></script>
     
   </body>
 </html>
