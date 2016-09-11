@@ -42,9 +42,31 @@ $(document).ready(function($){
         $('#visible-comment').html(comment);
         $('.message-box').hide();
         
-        //console.log(comment);
+        console.log(comment);
         return false;
       });
+      
+      // key up event 
+      $('.message-box').on('keyup', function() {
+        console.log('keyup happened'); // this is where we make sure keyup is working
+      // charCount event  
+      var charCount = $('.message-box').val().length; // this is where we set the length of the content of the textarea to a variable
+        console.log('charCount');
+          $('#char-count').html(charCount); // this is where we show a running character count to the user
+     
+        if (charCount > 50) {
+          // turn character count red
+          $('#char-count').css('color', 'red');
+        } else {
+          // needs to be black
+          $('#char-count').css('color', 'black');
+       };
+       
+       
+      });
+        
+     
+      
 
       
 }); // end of JavaScript //
