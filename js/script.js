@@ -33,18 +33,17 @@ $(document).ready(function($){
         $('[data-toggle="tooltip"]').tooltip();
       });
  
-      // Pink background color in message-box
-      $(".message-box").css("background-color", "pink");
+      
    
       // Message-box comment on click
-      $('#button').on('click', function() {
-        var comment = $(".message-box").val();
-        $('#visible-comment').html(comment);
-        $('.message-box').hide();
+      //$('#button').on('click', function() {
+        //var comment = $(".message-box").val();
+        //$('#visible-comment').html(comment);
+       // $('.message-box').hide();
         
-        console.log(comment);
-        return false;
-      });
+       // console.log(comment);
+      //  return false;
+     // });
       
       // key up event 
       $('.message-box').on('keyup', function() {
@@ -57,18 +56,33 @@ $(document).ready(function($){
         if (charCount > 50) {
           // turn character count red
           $('#char-count').css('color', 'red');
-        } else {
+          } else {
           // needs to be black
           $('#char-count').css('color', 'black');
        };
-       
-       
       });
-        
-     
+       
+       
+       // Pink background color in message-box
+      $(".message-box").css("background-color", "pink");
       
+        // no comment click event      
+       $('#button').on('click', function() {
+         console.log('comment');
+       
+          var comment = $('.message-box').val();
+          if (comment === "") {
+          // turn border of message box red
+          $('textarea').css('border', '2px solid red');
+            return true;
+          } else {        
+            $('#visible-comment').html('thanks');
+            $('.message-box').hide(600);
+            
+            return false;
+          }
+        });
 
-      
 }); // end of JavaScript //
 
 
