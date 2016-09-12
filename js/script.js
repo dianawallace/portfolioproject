@@ -81,13 +81,13 @@ $(document).ready(function($){
         });
         
      var works = [
-  "images/american_gothic_parody.png",
+  "images/shopping_list.png",
     
-  "images/lady_gaga.png",
+  "images/quiz_app.png",
     
-  "images/playing_card.png",
+  "images/behance_api.png",
   
-  "images/fantasy_illustration.png"
+  "images/stackoverflow_ajax.png"
   ] 
         
   // Work section
