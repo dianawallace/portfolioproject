@@ -2,9 +2,6 @@
   // Load Twitter Follow Me Button 
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
-    
-    
-    
 
 $(document).ready(function($){
   
@@ -32,9 +29,7 @@ $(document).ready(function($){
       $(function() {
         $('[data-toggle="tooltip"]').tooltip();
       });
- 
-      
-   
+
       // Message-box comment on click
       //$('#button').on('click', function() {
         //var comment = $(".message-box").val();
@@ -59,7 +54,7 @@ $(document).ready(function($){
           } else {
           // needs to be black
           $('#char-count').css('color', 'black');
-       };
+       }
       });
        
        
@@ -74,14 +69,39 @@ $(document).ready(function($){
           if (comment === "") {
           // turn border of message box red
           $('textarea').css('border', '2px solid red');
+          
             return true;
+            
           } else {        
-            $('#visible-comment').html('thanks');
+            $('#visible-comment').html('Thanks!');
             $('.message-box').hide(600);
             
             return false;
           }
         });
+        
+     var works = [
+  "images/american_gothic_parody.png",
+    
+  "images/lady_gaga.png",
+    
+  "images/playing_card.png",
+  
+  "images/fantasy_illustration.png"
+  ] 
+        
+  // Work section
+    for (var i = 0; i < works.length; ++i ) {
+      $("#projects").append("\
+        <div class='col-sm-6 col-md-3'>\
+          <img class='img-responsive' src='" + works[i] + "'>\
+        </div>\
+      ");
+    };
+    
+    
+    
+    
 
 }); // end of JavaScript //
 
