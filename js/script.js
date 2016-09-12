@@ -97,7 +97,14 @@ $(document).ready(function($){
           <img class='img-responsive' src='" + works[i] + "'>\
         </div>\
       ");
+      
+    var images = $("#projects img");
+    if(i%2 === 0){
+      $(images[i]).css("border", "2px solid DodgerBlue");
+    } else {
+      $(images[i]).css("border", "2px solid salmon");
     };
+  };
     
     
     
