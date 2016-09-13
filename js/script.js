@@ -86,10 +86,7 @@ $(document).ready(function($){
     for (var i = 0; i < works.length; ++i ) {
       $("#projects").append("\
         <div class='col-sm-6 col-md-3'>\
-          <a href='#' class='work-img'>\
-            <img class='img-responsive' src='" + works[i].pic + "'>\
-            <span class='info'><p class='proj-title'>Title:</p> [WORK TITLE] </span>\
-          </a>\
+          <img class='img-responsive' src='" + works[i] + "'>\
         </div>\
       ");
       
