@@ -45,7 +45,7 @@ $(document).ready(function($){
         console.log('keyup happened'); // this is where we make sure keyup is working
       // charCount event  
       var charCount = $('.message-box').val().length; // this is where we set the length of the content of the textarea to a variable
-        console.log('charCount');
+        console.log(charCount);
           $('#char-count').html(charCount); // this is where we show a running character count to the user
      
         if (charCount > 50) {
@@ -81,20 +81,32 @@ $(document).ready(function($){
         });
         
      var works = [
-  "images/shopping_list.png",
-    
-  "images/quiz_app.png",
-    
-  "images/behance_api.png",
-  
-  "images/stackoverflow_ajax.png"
-  ] 
+       {
+        title: "First Project",
+        pic: "images/shopping_list.png"
+       },
+       {
+        title: "Second Project",
+        pic: "images/quiz_app.png"
+       },
+       {
+        title: "Third Project",
+        pic: "images/behance_api.png"
+       },
+       {  
+        title: "Fourth Project",
+        pic: "images/stackoverflow_ajax.png"
+       },
+  ]; 
         
   // Work section
     for (var i = 0; i < works.length; ++i ) {
       $("#projects").append("\
         <div class='col-sm-6 col-md-3'>\
-          <img class='img-responsive' src='" + works[i] + "'>\
+          <a href='#' class='work-img'>\
+            <img class='img-responsive' src='" + works[i].pic + "'>\
+            <span class='info'><p class='proj-title'>Title:</p> [WORK TITLE] </span>\
+          </a>\
         </div>\
       ");
       
@@ -106,10 +118,7 @@ $(document).ready(function($){
     };
   };
     
-    
-    
-    
-
+ 
 }); // end of JavaScript //
 
 

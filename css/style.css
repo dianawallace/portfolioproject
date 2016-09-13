@@ -135,17 +135,33 @@ p {
 /* Project Section */
 
 #projects {
-  margin: 50px 0;
+  margin: 25px 0;
   text-align: center;
 }
 
 .projects {
-  margin: 50px 0 0 0;
+  margin: 50px 0;
   text-align: center;
 }
 
 .top-row {
   margin: 100px 0;
+}
+
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 15%;
+}
+
+.proj-title {
+  
 }
 
 
