@@ -158,13 +158,14 @@ p {
 .info {
   position: absolute;
   top: 15%;
-  left: 22%;
-  color: #fff;
+  left: 2%;
+  color: black;
   font-family: Futura;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.5em;
   line-height: 1.6em;
+  display: none;
   
 }
 
