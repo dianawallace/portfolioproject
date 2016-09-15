@@ -199,6 +199,11 @@ p {
   height: 1100px;
 }
 
+#map {
+  height: 400px;
+  width: 350px;
+}
+
 .message {
   font-family: Futura, Helvetica, Arial, sans-serif;
   width: 75%;

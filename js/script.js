@@ -107,12 +107,20 @@ $(document).ready(function($){
       $(".info", this).hide();
     });
 
-  // API MAP KEY AIzaSyBacGBSw9CsJAPbApZYFgAcNagIULtAK2c 
-  
-  
- 
+
 }); // end of JavaScript //
 
+  // API MAP KEY AIzaSyBacGBSw9CsJAPbApZYFgAcNagIULtAK2c 
+  
+  // JavaScript API Key AIzaSyDnjtXP3oN0Fx7VvTXGjCcHAIAGOPtclx8 
+
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 39.7926114, lng: -105.0872819},
+      zoom: 9
+    });
+  }
 
 
 
