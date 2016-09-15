@@ -107,6 +107,9 @@ $(document).ready(function($){
       $(".info", this).hide();
     });
 
+  // API MAP KEY AIzaSyBacGBSw9CsJAPbApZYFgAcNagIULtAK2c 
+  
+  
  
 }); // end of JavaScript //
 
