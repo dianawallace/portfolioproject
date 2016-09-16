@@ -114,12 +114,24 @@ $(document).ready(function($){
   
   // JavaScript API Key AIzaSyDnjtXP3oN0Fx7VvTXGjCcHAIAGOPtclx8 
 
-  var map;
   function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 39.7926114, lng: -105.0872819},
-      zoom: 9
-    });
+  var myLatLng = {lat: 39.7926114, lng: -105.0872819};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 8,
+    center: myLatLng
+  });
+
+    
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Go Broncos!'
+    
+  // Place ID: ChIJky5q3DOGa4cR8ap7dpKCHOo
+
+  });
+
   }
 
 
