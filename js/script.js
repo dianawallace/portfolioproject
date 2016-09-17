@@ -82,7 +82,7 @@ $(document).ready(function($){
         
    
         
-  // Work section
+  // Work/Project section
     for (var i = 0; i < works.length; ++i ) {
       $("#projects").append("\
         <div class='col-sm-6 col-md-3'>\
@@ -110,6 +110,7 @@ $(document).ready(function($){
 
 }); // end of JavaScript //
 
+  // Map for Contact Section
   // API MAP KEY AIzaSyBacGBSw9CsJAPbApZYFgAcNagIULtAK2c 
   
   // JavaScript API Key AIzaSyDnjtXP3oN0Fx7VvTXGjCcHAIAGOPtclx8 

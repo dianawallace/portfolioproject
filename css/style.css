@@ -135,7 +135,7 @@ p {
 /* Project Section */
 
 #projects {
-  margin: 50px 0;
+  margin: 50px 0 100px 0;
   text-align: center;
 }
 
@@ -160,7 +160,7 @@ p {
   top: 15%;
   left: 2%;
   color: black;
-  font-family: Futura;
+  font-family: Arial;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.5em;

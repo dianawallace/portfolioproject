@@ -13,12 +13,12 @@
        {
         title: "Third Project",
         pic: "images/behance_api.png",
-        url: "http://dianawallaceart.com/"
+        url: "http//www.dianawallaceart.com"
        },
        {  
         title: "Fourth Project",
         pic: "images/stackoverflow_ajax.png",
-        url: "http://dianawallaceart.com/"
+        url: "http//www.dianawallaceart.com"
        },
   ]; 
 
